@@ -13,11 +13,11 @@
 
 **协作者**先进入那个**要上传到的文件夹**，点击 Upload Files，选择需要上传的文档，可以是文件也可以是文件夹，可以有多个：
 
-![](http://img.candobear.com/2019-07-22-040532.png)
+![](http://ww2.sinaimg.cn/large/006tNc79ly1g58t3nahk1j31ju07eglx.jpg)
 
 然后点击 Commit Changes：
 
-![](http://img.candobear.com/2019-07-22-104122.png)
+![](http://ww4.sinaimg.cn/large/006tNc79ly1g58t3dgtt8j31l00jugm2.jpg)
 
 ### 拉取并推送文档
 
