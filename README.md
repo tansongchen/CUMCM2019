@@ -5,7 +5,21 @@
 
 ### 上传文档
 
-点击 Upload Files，选择
+**先进入要上传到的文件夹**，点击 Upload Files，选择需要上传的，可以是文件也可以是文件夹，可以有多个：
+
+![](http://img.candobear.com/2019-07-22-040532.png)
+
+然后 Commit Changes：
+
+![](http://img.candobear.com/2019-07-22-040735.png)
+
+### 推送到原作者的仓库
+
+合并之后，到自己的仓库会发现显示：This branch is X commits ahead of tansongchen:master，这个时候就点击 New pull request，
+
+![](http://img.candobear.com/2019-07-22-040951.png)
+
+
 
 ## 文件结构说明
 
