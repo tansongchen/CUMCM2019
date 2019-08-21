@@ -1,11 +1,11 @@
 # Fdb version 3
-["xdvipdfmx"] 1564408403 "示例.xdv" "示例.pdf" "示例" 1564408403
+["xdvipdfmx"] 1564408403 "示例.xdv" "示例.pdf" "示例" 1566139600
   "示例.xdv" 1564408403 42284 51adee08181444d24203071b38e1213b "xelatex"
   (generated)
   "示例.pdf"
-["xelatex"] 1564408402 "示例.tex" "示例.xdv" "示例" 1564408403
+["xelatex"] 1564408402 "示例.tex" "示例.xdv" "示例" 1566139600
   "/Library/Fonts/Songti.ttc" 1534542990 66933252 bc432ad7628283e59cc866a2cb6e3437 ""
-  "/dev/null" 1564408403 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "/dev/null" 1566139550 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1480098701 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/latex-fonts/lasy6.tfm" 1480098711 520 4889cce2180234b97cad636b6039c722 ""
@@ -96,6 +96,6 @@
   "示例.aux" 1564408403 2126 f7388cb540011cea820674e937a27908 ""
   "示例.tex" 1564408401 5930 1927ca8081622f8ad1edc82a0aeb2823 ""
   (generated)
+  "示例.aux"
   "示例.log"
   "示例.xdv"
-  "示例.aux"
