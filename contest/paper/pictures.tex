@@ -1,0 +1,58 @@
+
+\begin{figure}
+    \centering
+    \begin{minipage}[t]{.5\textwidth}
+        \centering
+            \begin{tikzpicture}[scale=1]
+		\begin{axis}[
+		axis lines=middle,
+		axis line style={->},
+		label style={font=\large},
+		tick label style={font=\large},
+		%x label style={at={(axis description cs:0.5,-0.1)},anchor=north},
+		y label style={at={(axis description cs:-0.1,.5)},rotate=90,anchor=south},
+		%xlabel={$t$},
+		ylabel={$m_1$}]
+		\addplot table [x=t, y=m1, mark=none, smooth] {../2/m1-t.dat};
+		\end{axis}
+		\end{tikzpicture}
+
+        %\subcaption{$m_1$-t图}
+    \end{minipage}
+    \begin{minipage}[t]{.5\textwidth}
+        \centering
+           \begin{tikzpicture}[scale=1]
+		\begin{axis}[
+		axis lines=middle,
+		axis line style={->},
+		label style={font=\large},
+		tick label style={font=\large},
+		%x label style={at={(axis description cs:0.5,-0.1)},anchor=north},
+		y label style={at={(axis description cs:-0.1,.5)},rotate=90,anchor=south},
+		%xlabel={$t$},
+		ylabel={$P$}]
+		\addplot table [x=t, y=P, mark=none, smooth] {../2/P-t.dat};
+		\end{axis}
+		\end{tikzpicture}
+        %\subcaption{P-t图}
+    \end{minipage}
+	 \begin{minipage}[t]{.5\textwidth}
+        \centering
+            \begin{tikzpicture}[scale=1]
+		\begin{axis}[
+		axis lines=middle,
+		axis line style={->},
+		label style={font=\large},
+		tick label style={font=\large},
+		x label style={at={(axis description cs:0.5,-0.1)},anchor=north},
+		y label style={at={(axis description cs:-0.1,.5)},rotate=90,anchor=south},
+		xlabel={$t$},
+		ylabel={$QA$}]
+		\addplot table [x=t, y=QA, mark=none, smooth] {../2/QA-t.dat};
+		\end{axis}
+		\end{tikzpicture}
+        %\subcaption{QA-t图}
+    \end{minipage}
+
+    \caption{不同弛豫时间下压力的均方根偏离与开启时长的关系}
+\end{figure}

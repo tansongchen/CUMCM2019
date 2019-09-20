@@ -1,6 +1,4 @@
-import sys 
-sys.path.append('../数据')
-from 函数库 import *
+from ..data.lib import *
 from simanneal import Annealer
 import math
 import random

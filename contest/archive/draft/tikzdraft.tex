@@ -1,0 +1,29 @@
+\documentclass{ctexart}
+\usepackage{tikz}
+\begin{document}
+\begin{figure}
+\centering
+\begin{tikzpicture}
+  % 圆锥
+  \draw[dashed, very thick] (-1, 0) -- (1, 0);
+  \draw[thick] (-1, 0) -- (-4, 9);
+  \draw[thick] (1, 0) -- (4, 9);
+  % 针阀
+  \draw[thick] (-1.25, 9) -- (-1.25, 4.0);
+  \draw[very thick] (-1.25, 4) -- (1.25, 4.0);
+  \draw[thick] (1.25, 9) -- (1.25, 4.0);
+  % 垂足
+  \draw[dashed, very thick] (1.25, 4) -- (2.22, 3.66);
+  \draw[dashed, very thick] (1.25, 4) -- (0, 4.413);
+  \draw[dashed, very thick] (-1.25, 4) -- (0, 4.413);
+  % 说明文字
+  \draw (0, 0.3) [red] node {\Large $d_B, S_B$};
+  \draw (0, 1.5) [red] node {$P_3,\rho_3$};
+  \draw (0, 3.5) [red] node {$d_I$};
+  \draw (2, 6) [red] node {$P_2,\rho_2$};
+  \draw (1.9, 4.1) [red] node {$l_2$};
+  \draw (0.8, 4.5) [red] node {$l_1$};
+\end{tikzpicture}
+\caption{喷油器示意图}
+\end{figure}
+\end{document}
